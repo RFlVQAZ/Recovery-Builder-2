@@ -14,11 +14,11 @@ on:
 
 env:
   MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-  DEVICE: r9q
-  DT_LINK: https://github.com/klabit87/android_device_samsung_r9q
-  DT_PATH: device/samsung/r9q
-  TARGET: recoveryimage
-  OUTPUT: recovery.img
+  DEVICE: Le7
+  DT_LINK: https://github.com/artemscine/twrp_device_tecno_le7n
+  DT_PATH: device/Tecno/Le7
+  TARGET: bootimage
+  OUTPUT: boot.img
 
 jobs:
   build:
